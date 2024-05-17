@@ -1,0 +1,1 @@
+Basic web3 wallet client built in Svelte + Viem + Typescript

@@ -1,0 +1,15 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.card:not(.widget),
+	.icon {
+		background: radial-gradient(rgb(255, 255, 255, .2), rgb(255, 255, 255, .05))
+	}
+}
+
+html {
+	-webkit-tap-highlight-color: rgba(128, 128, 128, 0.5);
+}
